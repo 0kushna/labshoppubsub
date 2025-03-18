@@ -12,6 +12,8 @@ import lombok.*;
 public class DeliveryAdded extends AbstractEvent {
 
     private Long id;
+    private String customerId;
+    private String address;
 
     public DeliveryAdded(Delivery aggregate) {
         super(aggregate);

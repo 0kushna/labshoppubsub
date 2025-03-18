@@ -20,6 +20,16 @@ public class Delivery {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    private String productId;
+
+    private String customerId;
+
+    private Integer qty;
+
+    private String address;
+
+    private String status;
+
     @PostPersist
     public void onPostPersist() {
         DeliveryAdded deliveryAdded = new DeliveryAdded(this);
