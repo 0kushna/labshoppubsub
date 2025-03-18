@@ -26,7 +26,9 @@ public class Order {
 
     private String customerId;
 
-    private Double amount;
+    private String amount;
+
+    private String address;
 
     @PostPersist
     public void onPostPersist() {

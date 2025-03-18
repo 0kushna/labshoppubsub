@@ -104,7 +104,8 @@
                 'productId': '',
                 'qty': 0,
                 'customerId': '',
-                'amount': 0,
+                'amount': '',
+                'address': '',
             }
         },
         methods:{

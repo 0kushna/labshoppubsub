@@ -1,7 +1,7 @@
 # 
 
 ## Model
-www.msaez.io/#/courses/cna-full/f34b48e0-ff3d-11ef-ada3-31b936e467fd/pub-sub-2022
+www.msaez.io/#/80585576/storming/labshoppubsub-sm-0318
 
 ## Before Running Services
 ### Make sure there is a Kafka server running
@@ -34,7 +34,7 @@ mvn spring-boot:run
 ## Test by API
 - order
 ```
- http :8088/orders id="id"productId="productId"qty="qty"customerId="customerId"amount="amount"
+ http :8088/orders id="id"productId="productId"qty="qty"customerId="customerId"amount="amount"address="address"
 ```
 - inventory
 ```
